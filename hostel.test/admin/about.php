@@ -37,7 +37,8 @@ require_once '../functions/connect.php';
 
         </form>
         <br>
-        <img src="about/img/<?php echo $res->filename ?>"width="600">
+        <img src="/admin/img/<?php echo $res->filename ?>"width="600">
+
 
 
     <?php  else:
